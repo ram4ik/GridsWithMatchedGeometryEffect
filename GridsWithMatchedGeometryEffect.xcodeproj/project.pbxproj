@@ -11,6 +11,8 @@
 		9562FFAA24A4BFE60044FA8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562FFA924A4BFE60044FA8B /* ContentView.swift */; };
 		9562FFAC24A4BFE70044FA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9562FFAB24A4BFE70044FA8B /* Assets.xcassets */; };
 		9562FFAF24A4BFE70044FA8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9562FFAE24A4BFE70044FA8B /* Preview Assets.xcassets */; };
+		9562FFB724A4C0160044FA8B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562FFB624A4C0160044FA8B /* Home.swift */; };
+		9562FFBD24A4C06E0044FA8B /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562FFBC24A4C06E0044FA8B /* Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9562FFAB24A4BFE70044FA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9562FFAE24A4BFE70044FA8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9562FFB024A4BFE70044FA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9562FFB624A4C0160044FA8B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9562FFBC24A4C06E0044FA8B /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		9562FFA624A4BFE60044FA8B /* GridsWithMatchedGeometryEffect */ = {
 			isa = PBXGroup;
 			children = (
+				9562FFB924A4C0470044FA8B /* Model */,
 				9562FFA724A4BFE60044FA8B /* GridsWithMatchedGeometryEffectApp.swift */,
 				9562FFA924A4BFE60044FA8B /* ContentView.swift */,
 				9562FFAB24A4BFE70044FA8B /* Assets.xcassets */,
 				9562FFB024A4BFE70044FA8B /* Info.plist */,
 				9562FFAD24A4BFE70044FA8B /* Preview Content */,
+				9562FFB624A4C0160044FA8B /* Home.swift */,
 			);
 			path = GridsWithMatchedGeometryEffect;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				9562FFAE24A4BFE70044FA8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9562FFB924A4C0470044FA8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9562FFBC24A4C06E0044FA8B /* Language.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9562FFAA24A4BFE60044FA8B /* ContentView.swift in Sources */,
+				9562FFBD24A4C06E0044FA8B /* Language.swift in Sources */,
+				9562FFB724A4C0160044FA8B /* Home.swift in Sources */,
 				9562FFA824A4BFE60044FA8B /* GridsWithMatchedGeometryEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
